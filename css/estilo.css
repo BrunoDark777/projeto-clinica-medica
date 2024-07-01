@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Source-Sans-Pro', sans-serif ;
+}
+
+.topo{
+    background-color: #9edbff;
+    width: 100%;
+    height: 90px;
+}
+
+.topo div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1024px;
+}
+
+.links-topo{
+    display: flex;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.links-topo a{
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
