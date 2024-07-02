@@ -1,0 +1,32 @@
+@media (max-width: 525px){
+    .topo{
+        height: 140px;
+    }
+    .topo div{
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    .links-topo{
+        width: 90%;
+        font-size: 12px;
+        border-top: 1px  solid #00000027;
+    }
+
+    .links-topo a{
+        margin: 0 auto;
+    }
+
+    .titulo h1{
+        left: 25%;
+        top: 100px;
+    }
+
+    .banner{
+        height: 300px;
+    }
+
+    .sobre-clinica2 div img{
+        display: none;
+    }
+}

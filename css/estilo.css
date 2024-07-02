@@ -15,9 +15,10 @@ body{
 
 .topo div{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 1024px;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .links-topo{
@@ -32,3 +33,128 @@ body{
     font-weight: bold;
     color: #fff;
 }
+
+.conteudo{
+   width: 100%; 
+   margin: 0 auto;
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url('/assets/recepcao.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo{
+    position: relative;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.titulo h1{
+    width: 245px;
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 10%;  
+}
+
+.sobre{
+    width: 100%;
+}
+
+.sobre div{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.sobre-clinica{
+    text-align: center;
+}
+
+.sobre-clinica h2, p{
+    margin-bottom: 30px;
+}
+
+.sobre-clinica2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sobre-clinica2 div h2{
+    margin-bottom: 30px;
+}
+
+.especialidades{
+    width: 100%;
+    text-align: center;
+}
+
+.especialidades div{
+    max-width: 1024px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.especialidades div h2, p{
+    margin-bottom: 30px;
+}
+
+.imagens{
+    display: flex;
+}
+
+.imagens div{
+    margin: 20px;
+    box-shadow: 2px 2px 5px #000;
+
+}
+
+.imagens div img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.especialidades a{
+    text-decoration: none;
+    background-color: #85c2e6;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.contato{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.contato div{
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contato div h2{
+    margin-bottom: 30px;
+}
+
+.rodape{
+    width: 100%;
+    height: 250px;
+    margin-top: 30px;
+    background-color: #85c2e6;
+}
+
+.rodape div{
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
