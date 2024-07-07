@@ -40,7 +40,7 @@ body{
 }
 
 .banner{
-    width: 1343px;
+    width: 100%;
     height: 400px;
     background-image: url('/assets/recepcao.png');
     background-position: center;
