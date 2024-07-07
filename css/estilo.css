@@ -40,7 +40,7 @@ body{
 }
 
 .banner{
-    width: 100%;
+    width: 1343px;
     height: 400px;
     background-image: url('/assets/recepcao.png');
     background-position: center;
@@ -109,6 +109,7 @@ body{
 
 .imagens{
     display: flex;
+
 }
 
 .imagens div{
@@ -118,7 +119,7 @@ body{
 }
 
 .imagens div img{
-    width: 100%;
+    width: 300px;
     margin-bottom: 20px;
 }
 

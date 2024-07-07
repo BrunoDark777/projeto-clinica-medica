@@ -1,4 +1,4 @@
-@media (max-width: 525px){
+@media (max-width: 525px ){
     .topo{
         height: 140px;
     }
@@ -18,15 +18,28 @@
     }
 
     .titulo h1{
+        font-size: 20px;
         left: 25%;
         top: 100px;
     }
 
     .banner{
+        width: 477px;
         height: 300px;
     }
 
     .sobre-clinica2 div img{
         display: none;
     }
+
+    .imagens {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .imagens div{
+        width: 300px;
+    }
 }
+
