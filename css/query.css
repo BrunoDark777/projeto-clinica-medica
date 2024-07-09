@@ -1,5 +1,9 @@
 @media (max-width: 1024px){
-    
+
+    .imagens{
+        flex-wrap: wrap;
+    }
+
 }
 
 
@@ -37,8 +41,7 @@
     }
 
     .titulo h1{
-        font-size: 20px;
-        left: 25%;
+        text-align: center;
         top: 100px;
     }
 
