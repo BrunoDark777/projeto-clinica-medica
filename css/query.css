@@ -1,3 +1,22 @@
+@media (max-width: 1024px){
+    
+}
+
+
+@media ( max-width: 768px){
+    .titulo h1{
+        font-size: 25px;
+    }
+
+    .imagens{
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+
+
+}
+
 @media (max-width: 525px ){
     .topo{
         height: 140px;
