@@ -65,3 +65,36 @@
     }
 }
 
+/* Media Querie Especialidades */
+
+@media (max-width: 768px){
+
+    .links-esp div a{
+        font-size: 14px;
+    }
+
+    .container-esp .tabela img{
+        display: none;
+    }
+
+    .tabela{
+        height: 200px;
+    }
+}
+
+@media (max-width: 525px){
+    .links-esp div a{
+        font-size: 13px;
+    }
+
+    .tabela table tbody{
+        font-size: 13px;
+    }
+
+    .rodape{
+        height: 300px;
+    }
+}
+
+
+
